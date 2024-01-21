@@ -15,7 +15,7 @@ uploaded = files.upload()
 # Check the uploaded files
 for filename in uploaded.keys():
     print(f'File "{filename}" uploaded successfully!')
-
+# Import Pandas
 import pandas as pd
 
 # Load the dataset
